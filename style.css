@@ -119,9 +119,9 @@ input[type=text]:focus {
   font-weight: normal;
 }
 
-.info {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.123)), url("https://source.unsplash.com/random/?nyc");
-  background-size: cover;
+
+.info{
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.377)), url("https://source.unsplash.com/random/?love");
   transition: all 0.4s ease-in-out;
   width: 100%;
   height: 100%;
@@ -158,7 +158,6 @@ article p {
   margin-bottom: 10px;
   align-items: flex-end;
   color: #fff;
-  background-size: cover;
   text-align: center;
   line-height: 100px;
 }
@@ -170,24 +169,30 @@ article p {
 }
 
 .thisWeek div:first-child {
-  background: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.664)), url("https://source.unsplash.com/random/?city"); 
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.664)), url("https://source.unsplash.com/random/?car"); 
 }
 
 .thisWeek div:nth-child(2) {
-  background: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.664)), url("https://source.unsplash.com/random/?water"); 
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.664)), url("https://source.unsplash.com/random/?code"); 
 }
 
 .thisWeek div:nth-child(3) {
-  background: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.664)), url("https://source.unsplash.com/random/?love"); 
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.664)), url("https://source.unsplash.com/random/?sport"); 
 }
 
 .thisWeek div:last-child {
-  background: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.664)), url("https://source.unsplash.com/random/?sunset"); 
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.664)), url("https://source.unsplash.com/random/?sun"); 
 }
+
+
+.info, .thisWeek div:first-child,
+.thisWeek div:nth-child(2),
+.thisWeek div:nth-child(3),
+.thisWeek div:last-child {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
 
 .sub {
   background-color: #9999;
