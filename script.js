@@ -10,7 +10,6 @@ const newLocal = {
 let controlProperties = newLocal
 
 let showMenu = () => {
-    console.log("got here")
     let control = newLocal;
     control.hamburger.classList.remove('show') 
     control.hamburger.classList.add('hide')    
@@ -41,7 +40,7 @@ let styleTopNavigation = () => {
     let windowHeight = window.scrollY;
     let navSearch = document.getElementById("top-nav-search")
     let nav = document.getElementsByTagName('nav')[0]
-    if(windowHeight >= 200) {
+    if(windowHeight >= 120) {
         navSearch.classList.add('show-top-nav-search')
         nav.classList.add('blackNav')
         return;
