@@ -4,7 +4,7 @@
 }
 
 body {
-   /* background-color: rgba(128, 128, 128, 0.089); */
+   background-color: rgba(128, 128, 128, 0.089);
   color: rgb(102, 102, 102);
   
   
@@ -131,6 +131,7 @@ input[type=text]:focus {
 }
 
 article {
+  margin: 0 auto;
   margin-top: 20px;
   width: 65%;
 }
